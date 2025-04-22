@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Indexes Comparison</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Stock Market Indexes Comparison</h1>
+        <p
+          >Stock market indexes can vary a lot in terms of their numerical
+          values. To facilitate the comparison of multiple stock market indexes,
+          it's common to use an index chart. It's a type of line chart that
+          normalizes time series data to a common starting point. It emphasizes
+          the relative changes instead of the absolute values.</p
+        >
+        <p>Hover over the chart to change the starting date.</p>
+      </header>
+
+      <section class="charts" id="charts"></section>
+
+      <footer>
+        <p
+          >Data source:
+          <a
+            href="https://curvo.eu/backtest/en/compare-indexes/euro-stoxx-50-vs-ftse-100-vs-msci-china-vs-nasdaq-100-vs-nyse-arca-gold-bugs-vs-sp-500?currency=usd"
+            target="_blank"
+            >Backtest by Curvo</a
+          ></p
+        >
+        <dl>
+          <div>
+            <dt>EURO STOXX 50</dt>
+            <dd
+              >The EURO STOXX 50 is a stock index of Eurozone stocks designed by
+              STOXX, an index provider owned by the Deutsche Börse Group. The
+              index is composed of 50 stocks from 11 countries in the Eurozone.
+              EURO STOXX 50 represents Eurozone blue-chip companies considered
+              as leaders in their respective sectors.
+              <cite
+                ><a
+                  href="https://en.wikipedia.org/wiki/EURO_STOXX_50"
+                  target="_blank"
+                  >wikipedia</a
+                ></cite
+              ></dd
+            >
+          </div>
+          <div>
+            <dt>FTSE 100</dt>
+            <dd
+              >The Financial Times Stock Exchange 100 Index, also called the
+              FTSE 100 Index, FTSE 100, FTSE, or, informally, the "Footsie", is
+              the United Kingdom's best-known stock market index of the 100 most
+              highly capitalised blue chips listed on the London Stock Exchange.
+              <cite
+                ><a
+                  href="https://en.wikipedia.org/wiki/FTSE_100_Index"
+                  target="_blank"
+                  >wikipedia</a
+                ></cite
+              ></dd
+            >
+          </div>
+          <div>
+            <dt>MSCI China</dt>
+            <dd
+              >The MSCI China Index captures large and mid cap representation
+              across China A shares, H shares, B shares, Red chips, P chips and
+              foreign listings (e.g. ADRs). The index covers about 85% of this
+              China equity universe. Currently, the index includes Large Cap A
+              and Mid Cap A shares represented at 20% of their free float
+              adjusted market capitalization.
+              <cite
+                ><a
+                  href="https://www.msci.com/indexes/index/302400"
+                  target="_blank"
+                  >MSCI</a
+                ></cite
+              ></dd
+            >
+          </div>
+          <div>
+            <dt>Nasdaq-100</dt>
+            <dd
+              >The Nasdaq-100 is a stock market index made up of equity
+              securities issued by 100 of the largest non-financial companies
+              listed on the Nasdaq stock exchange. It is a modified
+              capitalization-weighted index.
+              <cite
+                ><a
+                  href="https://en.wikipedia.org/wiki/Nasdaq-100"
+                  target="_blank"
+                  >wikipedia</a
+                ></cite
+              ></dd
+            >
+          </div>
+          <div>
+            <dt>NYSE Arca Gold BUGS</dt>
+            <dd>
+              The NYSE Arca Gold BUGS Index is a modified equal dollar weighted
+              index of companies involved in gold mining. BUGS stands for Basket
+              of Unhedged Gold Stocks. It is also referred to by its ticker
+              symbol "HUI".
+              <cite
+                ><a
+                  href="https://en.wikipedia.org/wiki/HUI_Gold_Index"
+                  target="_blank"
+                  >wikipedia</a
+                ></cite
+              ></dd
+            >
+          </div>
+          <div>
+            <dt>S&P 500</dt>
+            <dd>
+              The Standard and Poor's 500, or simply the S&P 500, is a stock
+              market index tracking the stock performance of 500 leading
+              companies listed on stock exchanges in the United States.
+              <cite
+                ><a
+                  href="https://en.wikipedia.org/wiki/S%26P_500"
+                  target="_blank"
+                  >Wikipedia</a
+                ></cite
+              ></dd
+            >
+          </div>
+        </dl>
+      </footer>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
